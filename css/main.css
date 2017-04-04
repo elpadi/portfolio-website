@@ -88,8 +88,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body, html {
+	margin: 0;
+}
 body {
-	background-color: black;
+	background-color: white;
+	color: #444;
+	font-family: serif;
+}
+h1, h2, h3, h4 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#bg-gradient {
+	background-image: radial-gradient(ellipse, #fff 0%, #eee 100%);
 }
 
 a {
@@ -99,20 +113,100 @@ a {
 #container {
 	max-width: 980px;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 0 10px;
+}
+
+#main-header nav {
+	font-family: sans-serif;
+	border-bottom: 1px solid #ddd;
+	line-height: 50px;
+	letter-spacing: 0.1em;
+	word-spacing: 1em;
+}
+#main-header nav a {
+	color: inherit;
+}
+
+#content {
+	padding: 1em 0 2em;
+}
+#content img {
+	max-width: 100%;
+}
+#work > header,
+#content > section {
+	padding: 0 1em;
 }
 
 
+#work {
+	padding: 0 !important;
+}
+#work > main {
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+#work h2 {
+	font-size: 1.25em;
+}
+#work .site {
+	max-width: calc(33.33% - 1em);
+	margin: 0.5em;
+}
+.site {
+	position: relative;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	transition: none 0.3s linear;
+	background-color: rgba(244,244,244,1);
+	transition-property: background-color, border-color;
+}
+.site:hover {
+	border-color: rgba(221,221,221,0);
+	background-color: rgba(244,244,244,0);
+}
+.site h2,
+.site h3 {
+	margin: 0;
+	line-height: 3;
+}
+.site h2 a {
+	color: inherit;
+}
+.site main {
+	display: none;
+}
+.site img {
+	width: 100%;
+	height: 32vw;
+	max-height: 250px;
+	object-fit: cover;
+	object-position: center top;
+}
+.site footer {
+	font-size: 0.85em;
+}
+.site footer p {
+	display: none;
+	margin: 0.5em auto;
+}
 
-
-
-
-
-
-
-
-
-
+#bio h1 {
+	margin: 1em 0;
+}
+#bio h2 {
+	font-size: 1.25em;
+	margin: 1.5em 0;
+}
+#bio p {
+	line-height: 1.5;
+}
+#bio img {
+	width: 16%;
+	margin: 0 0.33%;
+	float: left;
+}
 
 
 /* ==========================================================================
