@@ -57,7 +57,7 @@ if (!isset($sites)) header("HTTP/1.0 500 Internal Server Error");
 								<p>Growing up the younger of two boys, raised by a loving and hard working single mother and her father, I was by all accounts a difficult child, made all the worst by the constant antagonism of my annoying older brother who will never allow anyone within reach to comfortably relax. Primary school was an all boys academy run by a militant Spanish dictator (probably a General Franco supporter)<sup><a href="#franco">*</a></sup> who had a passion for teaching and discipline.</p>
 								<p>Fun fact: When I first stepped into first grade, I was 4 years old.</p>
 							</article>
-							<h2>USofA</h2>
+							<h2>US<span class="lowercase">of</span>A</h2>
 							<article>
 								<p>My family of three (my grandfather was gone by then) moved to NYC in April 04. By then I was done with high school and went to study at City College of New York. Being good at math and thinking I knew my way around computers (I was soon found out), I majored in Computer Engineering.</p>
 								<p>After a couple of years the family moved to Albany and my studies continued at SUNY Albany, which required a fortunate change to Computer Science. I moved back to New York right after graduation and I'm still here, having lived in the North Bronx, Chinatown, North Brooklyn, and now by the beach in Far Rockaway.</p>
