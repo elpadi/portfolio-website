@@ -102,6 +102,10 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+h1 img {
+	height: 1em;
+	width: auto;
+}
 #bg-gradient {
 	background-image: radial-gradient(ellipse, #fff 0%, #eee 100%);
 }
@@ -124,7 +128,14 @@ a {
 	border-bottom: 1px solid #ddd;
 	line-height: 50px;
 	letter-spacing: 0.1em;
-	word-spacing: 1em;
+	word-spacing: 0.7em;
+	font-size: 0.9em;
+}
+@media (min-width: 375px) {
+	#main-header nav {
+		word-spacing: 1em;
+		font-size: 1em;
+	}
 }
 #main-header nav a {
 	color: inherit;
@@ -136,12 +147,15 @@ a {
 #content img {
 	max-width: 100%;
 }
+#content > section {
+	margin-bottom: 3em;
+}
 #work > header,
 #content > section {
 }
 
 
-#work > main {
+#work .grid {
 	font-size: 0.8em;
 }
 #work h2 {
@@ -212,18 +226,18 @@ a {
 #bio p {
 	line-height: 1.5;
 }
-#bio img {
+#bio main img {
 	width: 50%;
 	margin: 0;
 	float: left;
 }
 @media (min-width: 540px) {
-	#bio img {
+	#bio main img {
 		width: 33.33%;
 	}
 }
 @media (min-width: 768px) {
-	#bio img {
+	#bio main img {
 		width: 16%;
 		margin: 0 0.33%;
 	}
