@@ -35,8 +35,8 @@ if (!isset($sites)) header("HTTP/1.0 500 Internal Server Error");
 						<header><h1>Welcome <img src="img/headings/work.jpg" alt=""></h1></header>
 						<main class="justified">
 							<article>
-								<p>Hi, I am Carlos Padilla, a web developer working out of New York.</p>
-								<p>Thanks for visiting this obscure speck of dust in the vast web space. Below is my latest work and a short bio.</p>
+								<p>Hi, I am a freelance web developer working out of New York with six years of experience coding dynamic websites.</p>
+								<p>Below is my latest work and a short bio. Thanks for visiting.</p>
 							</article>
 						</main>
 					</section>
@@ -84,7 +84,7 @@ if (!isset($sites)) header("HTTP/1.0 500 Internal Server Error");
 							<header><p><span id="am_i_still_alive" data-start="<?php echo $born; ?>"><?php echo number_format($alive); ?></span> seconds and counting. Born Carlos Alberto Padilla Contreras and raised in <a target="_blank" href="https://en.wikipedia.org/wiki/Santiago_de_los_Caballeros">Santiago de los 30 Caballeros</a> and now moving about NYC, here is a brief description of the time in between.</p></header>
 							<article>
 								<h2>Early Years</h2>
-								<p>Growing up the younger of two boys, raised by a loving and hard working single mother and her father, I was by all accounts a difficult child, made all the worst by the constant antagonism of my annoying older brother who will never allow anyone within reach to comfortably relax. Primary school was an all boys academy run by a militant Spanish dictator (probably a General Franco supporter)<sup><a href="#franco">*</a></sup> who had a passion for teaching and discipline.</p>
+								<p>Growing up the younger of two boys, raised by a loving and hard working single mother and her father, I was by all accounts a difficult child, made all the worst by the constant antagonism of my annoying older brother who will never allow anyone within reach to comfortably relax. Primary school was an all boys academy run by a strict Spanish military-type figure who had a passion for teaching and discipline.</p>
 								<p>Fun fact: When I first stepped into first grade, I was 4 years old.</p>
 							</article>
 							<article>
@@ -100,15 +100,11 @@ if (!isset($sites)) header("HTTP/1.0 500 Internal Server Error");
 							</article>
 							<article>
 								<h2>Now</h2>
-								<p>Freelancing and travelling as much as possible. Going to long camping trips and visiting family in between work.</p>
+								<p>Freelancing and travelling as much as possible. Going on long camping trips and visiting family in between work.</p>
 								<p>Proud uncle!!!</p>
 								<p class="clearfix"><?php foreach ($tilts as $t) printf('<img src="%s" alt="%s">', $t, basename($t, '.jpg')); ?></p>
 							</article>
 						</main>
-						<footer>
-							<h2>Footnotes</h2>
-							<p id="franco"><sup>*</sup> Completely unfounded claim, <a target="_blank" href="https://en.wikipedia.org/wiki/Donald_Trump_presidential_campaign,_2016">much in the spirit of the moment</a>.</p>
-						</footer>
 					</section>
 					<?php endif; ?>
 				</main>
