@@ -64,6 +64,27 @@ $sites = [
 		'tags' => ['Drupal'],
 		'description' => '<p></p>',
 	],[
+		'slug' => 'tron',
+		'title' => 'Tron Soundtrack',
+		'url' => 'https://versionindustries.com/work/client/daft-punk',
+		'category' => 'Music',
+		'tags' => ['Animations'],
+		'description' => '<p></p>',
+	],[
+		'slug' => 'version',
+		'title' => 'Version Industries',
+		'url' => 'https://versionindustries.com/',
+		'category' => 'Corporate',
+		'tags' => ['Custom CMS'],
+		'description' => '<p></p>',
+	],[
+		'slug' => 'pavilion',
+		'title' => 'Pavilion',
+		'url' => 'https://versionindustries.com/work/client/pavilion',
+		'category' => 'Film',
+		'tags' => ['Moving Images'],
+		'description' => '<p></p>',
+	],[
 		'slug' => 'ventures',
 		'title' => 'Ventures Africa',
 		'url' => 'https://versionindustries.com/work/client/ventures-africa',
