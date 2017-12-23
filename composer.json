@@ -1,0 +1,20 @@
+{
+    "name": "elpadi/portfolio-website",
+    "description": "Simple portfolio of web work.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "carlos (minimal)",
+            "email": "padi_05@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+		"autoload": {
+			"files": ["lib/templates.php","lib/bootstrap.php"],
+			"psr-4": {
+				"Portfolio\\": "lib/"
+			}
+		},
+    "require": {}
+}
